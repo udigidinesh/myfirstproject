@@ -1,0 +1,14 @@
+name: H
+
+on: 
+  push:
+    branches: [ main ]
+jobs:
+  diable:
+    runs-on: unbantu-latest
+
+    steps:
+      - name : kk
+        runs: echo "disable"
+    
+      
