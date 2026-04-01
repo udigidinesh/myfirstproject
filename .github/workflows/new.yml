@@ -1,0 +1,16 @@
+name: dd
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: : ubantu-latest
+
+    steps:
+      nam: Greetings
+      run: echo "hello"
+      
+
+    
