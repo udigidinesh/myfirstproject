@@ -9,8 +9,8 @@ jobs:
     runs-on: ubantu-latest
 
     steps:
-      nam: Greetings
-      run: echo "hello"
+      - name: Greetings
+        run: echo "hello"
       
 
     
